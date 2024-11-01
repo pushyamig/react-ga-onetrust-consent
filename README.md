@@ -1,4 +1,4 @@
- local # react-ga-onetrust-consent
+ Local # react-ga-onetrust-consent
 
 React implementation of OneTrust consent banner integrated with Google Analytics signals. Initially built to support analytics-enabled University of Michigan Teaching & Learning applications, this logic using Google Analytics tracking alongside OneTrust consent verification is written to be properly standardized; We will aim to iterate on this project such that it could be shared with other Umich web apps that utilize React and Google Analytics. 
 
