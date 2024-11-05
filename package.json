@@ -16,7 +16,7 @@
     "url": "https://github.com/tl-its-umich-edu/react-ga-onetrust-consent.git"
   },
   "publishConfig": {
-    "@${GITHUB_REPOSITORY_OWNER}:registry": "https://npm.pkg.github.com"
+    "registry": "https://npm.pkg.github.com"
   },
   "bugs": {
     "url": "https://github.com/tl-its-umich-edu/react-ga-onetrust-consent/issues"
