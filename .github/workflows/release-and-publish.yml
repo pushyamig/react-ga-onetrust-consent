@@ -16,6 +16,13 @@ jobs:
   release:
     runs-on: ubuntu-latest
     steps:
+      - name: Delete existing release and tag if they exist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          tag: ${{ github.ref_name }}
+        run: |
+          gh release delete "$tag" --repo="${{ github.repository }}" -y || true
+          git push --delete origin "$tag" || true
       - name: Create release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
