@@ -1,5 +1,5 @@
 {
-  "name": "@tl-its-umich-edu/react-ga-onetrust-consent",
+  "name": "@pushyamig/react-ga-onetrust-consent",
   "version": "1.1.0",
   "description": "React implementation of OneTrust consent banner integrated with Google Analytics signals.",
   "main": "dist/index.js",
@@ -13,15 +13,15 @@
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tl-its-umich-edu/react-ga-onetrust-consent.git"
+    "url": "https://github.com/pushyamig/react-ga-onetrust-consent.git"
   },
   "publishConfig": {
-    "@tl-its-umich-edu:registry": "https://npm.pkg.github.com"
+    "@pushyamig:registry": "https://npm.pkg.github.com"
   },
   "bugs": {
-    "url": "https://github.com/tl-its-umich-edu/react-ga-onetrust-consent/issues"
+    "url": "https://github.com/pushyamig/react-ga-onetrust-consent/issues"
   },
-  "homepage": "https://github.com/tl-its-umich-edu/react-ga-onetrust-consent#readme",
+  "homepage": "https://github.com/pushyamig/react-ga-onetrust-consent#readme",
   "babel": {
     "presets": [
       "@babel/preset-env",
