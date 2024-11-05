@@ -165,6 +165,20 @@ To run tests, use the following command:
 
 We are using Jest as our testing framework, with `ts-jest` for additional typescript support. Make sure any new features or changes include appropriate tests.
 
+## Building and Running with Docker
+
+To build the Docker image, run the following command:
+
+```sh
+docker build -t react-ga-onetrust-consent .
+```
+
+To run the Docker container, use the following command:
+
+```sh 
+docker run -p 3000:3000 react-ga-onetrust-consent
+```
+
 # Releasing
 We use GitHub Actions to automate the release and package publishing process. When the project is ready for a new package deployment, follow these steps:
 
